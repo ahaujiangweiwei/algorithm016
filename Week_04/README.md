@@ -27,5 +27,5 @@
 	else if (arr[mid] < khey)
 		return binary_search(arr, mid + 1, end, khey);
 	else
-	    return mid;        //最後檢測相等是因為多數搜尋狀況不是大於要不就小於
+	    return mid;        
 }
